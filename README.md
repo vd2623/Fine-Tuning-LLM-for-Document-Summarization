@@ -11,3 +11,10 @@ This project fine-tunes a `T5 Transformer` model to summarize legal and research
 ## Installation
 ```bash
 pip install transformers datasets torch
+
+## training
+python train_summarization.py
+
+## Future Enhancements
+Improve model performance with domain-specific datasets
+Deploy as a REST API using FastAPI
